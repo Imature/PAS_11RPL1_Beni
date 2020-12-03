@@ -13,15 +13,22 @@
         android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ControlClass">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Login" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
-        <activity android:name=".MainMenu" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".DetailTeamsFavourite" />
+        <activity android:name=".DetailTeams" />
+        <activity android:name=".ListTeams" />
+        <activity android:name=".ListTeamsFavourite" />
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ControlClass">
+
+        </activity>
+
     </application>
 
 </manifest>
