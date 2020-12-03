@@ -14,11 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Login" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
         <activity android:name=".DetailTeamsFavourite" />
         <activity android:name=".DetailTeams" />
@@ -26,7 +21,11 @@
         <activity android:name=".ListTeamsFavourite" />
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".ControlClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
     </application>
