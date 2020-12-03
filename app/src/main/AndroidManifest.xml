@@ -13,7 +13,6 @@
         android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListData" />
         <activity android:name=".ControlClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
